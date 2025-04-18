@@ -60,5 +60,5 @@ The primary next step is to **use a much larger dataset**. Subsequent steps incl
 
 | V4 AE (~64x, ~26.1dB) | V6 AE (~512x, ~24.1dB) | PCA (k=5, ~26.5dB) | Wavelet (0.2%, ~26.2dB) |
 | :-------------------: | :-------------------: | :----------------: | :---------------------: |
-| ![V4 Result](reconstruction_comparison_v4_best (1).png) | ![V6 Result](reconstruction_comparison_v6_512x_best (1).png) | ![PCA Result](reconstruction_comparison_pca_windowed_k5_s4.png) | ![Wavelet Result](reconstruction_comparison_wavelet_L3_K0.2.png) |
+| ![V4 Result](reconstruction_comparison_v4_best.png) | ![V6 Result](reconstruction_comparison_v6_512x_best.png) | ![PCA Result](reconstruction_comparison_pca_windowed_k5_s4.png) | ![Wavelet Result](reconstruction_comparison_wavelet_L3_K0.2.png) |
 
