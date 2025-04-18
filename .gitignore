@@ -172,3 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore Kaggle checkpoint directories
+/mri_checkpoints_v4/
+/mri_checkpoints_v6_512x/
+
+# Ignore common notebook checkpoints
+.ipynb_checkpoints/
+
