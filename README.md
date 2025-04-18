@@ -6,7 +6,7 @@ This repository documents an investigation into different methods for achieving 
 
 ## Data
 
-*   **Source:** Stanford AIMI Brain MRI Dataset (available on Kaggle).
+*   **Source:** Stanford AIMI Brain MRI Dataset.
 *   **CRITICAL LIMITATION:** Only **4 samples** were used for this initial investigation due to resource constraints. This severely limits the generalization and achievable fidelity of all models, especially deep learning approaches.
 
 ## Methods Explored
@@ -56,7 +56,6 @@ The notebook is designed to run on Kaggle with a GPU (tested on T4) and the spec
 The primary next step is to **use a much larger dataset**. Subsequent steps include retraining the AE, exploring its latent space, and potentially investigating VQ-VAE or GANs.
 
 ### Key Visual Results
-*(Note: Paths assume images are in the same directory as README)*
 
 | V4 AE (~64x, ~26.1dB) | V6 AE (~512x, ~24.1dB) | PCA (k=5, ~26.5dB) | Wavelet (0.2%, ~26.2dB) |
 | :-------------------: | :-------------------: | :----------------: | :---------------------: |
