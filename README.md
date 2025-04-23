@@ -39,7 +39,7 @@ The complete analysis, code, and detailed explanations are in the Jupyter Notebo
 [`stanford-medicine.ipynb`](./stanford-medicine.ipynb)
 
 A viewable version (including outputs) is also available on Kaggle:
-[**>>> TODO: https://www.kaggle.com/code/ajmaliitm/stanford-medicine <<<**]
+[View on Kaggle](https://www.kaggle.com/code/ajmaliitm/stanford-medicine)
 
 ## Dependencies
 
@@ -59,5 +59,4 @@ The primary next step is to **use a much larger dataset**. Subsequent steps incl
 
 | V4 AE (~64x, ~26.1dB) | V6 AE (~512x, ~24.1dB) | PCA (k=5, ~26.5dB) | Wavelet (0.2%, ~26.2dB) |
 | :-------------------: | :-------------------: | :----------------: | :---------------------: |
-| ![V4 Result](reconstruction_comparison_v4_best.png) | ![V6 Result](reconstruction_comparison_v6_512x_best.png) | ![PCA Result](reconstruction_comparison_pca_windowed_k5_s4.png) | ![Wavelet Result](reconstruction_comparison_wavelet_L3_K0.2.png) |
-
+| ![V4 Result](reconstruction_comparison_v4_best_multiview.png) | ![V6 Result](reconstruction_comparison_v6_512x_multiview.png) | ![PCA Result](reconstruction_comparison_pca_windowed_k5_s4_multiview.png) | ![Wavelet Result](reconstruction_comparison_wavelet_L3_K0p2_multiview.png) |
